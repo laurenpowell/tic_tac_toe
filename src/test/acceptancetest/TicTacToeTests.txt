@@ -8,8 +8,8 @@ Check Location   [Arguments]   ${row}    ${col}    ${mark}
 	Should Be Equal    ${m}    ${mark}    
 
 Winner Should Be   [Arguments]       ${mark}
-    ${m}=   Get Winner
-	Should Be Equal    ${m}    ${mark}    
+    ${w}=   Get Winner
+	Should Be Equal    ${w}    ${mark}    
 	
 
 *** Test Cases ***
@@ -63,5 +63,5 @@ Force a Tie
     Check Location  1   0   O
     Mark Location       2   2
     Check Location  2   2   X
-    Winner Should Be    TIE
+    Winner Should Be    T
 
