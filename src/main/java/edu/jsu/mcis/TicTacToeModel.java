@@ -65,8 +65,4 @@ public class TicTacToeModel {
 		}
 		return tie;
 	}
-	
-	public char[][] getGrid() {
-        return grid;
-    }
 }
