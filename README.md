@@ -9,7 +9,7 @@ This project is a class project that provides a terminal-based Tic Tac Toe game.
     - After installing, go to system variables and add java to the path.
     - To make sure it is working properly, open the command prompt and type javea -version.
   - From the command prompt, go into the source directory of tic_tac_toe/src/main/java/edu/jsu/mcis/ 
-    and type javac TicTacToe.java and then next type java TicTacToe,
+    and type javac TicTacToe.java and then next type java TicTacToe.
   - Now you can play the game. 
   
  ### Usage ###
